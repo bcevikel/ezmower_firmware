@@ -1,5 +1,6 @@
 #ifndef SONAR_SENSOR_H
 #define SONAR_SENSOR_H
+
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 #include "freertos/queue.h"
@@ -10,7 +11,7 @@
 #include"esp_timer.h"
 #include "esp_check.h"
 #define HCSR_04_SPEED_US_PER_METER 58 
-#define HCSR_04_MAX_TIME_TO_RETURN_MS 40 
+#define HCSR_04_MAX_TIME_TO_RETURN_MS 80 
 
 /*
 * Wrapper struct for MCPWM timer resource 
